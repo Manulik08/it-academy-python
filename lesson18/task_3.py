@@ -38,7 +38,7 @@ if discount_type == .
 # print(order.delivery_cost(100))
 
 
-class DefaultDiscount:
+class DefaultDiscountStradegy:
     def discount(self, prise):
         return prise * 0.95
 
